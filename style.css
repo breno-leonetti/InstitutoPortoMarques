@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap');
+/* -------------------------------- */
+
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+/* barra superior azul*/
+.superinfo .box-superinfo {
+  height: 40px;
+  width: 1300px;
+}
+
+.superinfo {
+  background: #3A3A7B;
+  color: white;
+}
+
+.superinfo-a {
+  margin-left: 130px;
+  width: 100%;
+  font-weight: 900;
+}
+
+.superinfo-a .superspace {
+  margin-left: 50px;
+}
+
+.superinfo .box-superinfo {
+  margin-left: 35px;
+}
+
+.superinfo .box-superinfo a {
+  margin-left: 5px;
+}
+
+.navpai {
+  font-weight: bold;
+  font-size: 22px;
+  color: #3A3A7B;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* ------------------------- */
+
+.background {
+  height: 700px;
+  /* width: 1300px; */
+  margin: 0 auto;
+  max-width: 100%;
+  background: url(img/background-conheca.png);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* faixa azul */
+
+.bluestrap-box {
+  display: flex;
+  justify-content: center;
+}
+
+.bluestrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  width: 900px;
+  height: 60px;
+  background: #3A3A7B;
+  color: white;
+  transform: translateY(70px);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bluestrap p {
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 15px;
+}
+
+/* imagem-carrosel */
+
+.meu-caro img {
+  margin-top: 220px;
+  height: 380px;
+}
+
+/* ----------------------- */
+
+/* cards */
+
+.container-1 {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.box {
+  flex: 1 1 500px;
+  margin: 20px 10px;
+  width: 570px;
+  height: 230px;
+  margin: 20px;
+  background: #0070C0;
+  border-radius: 15px;
+  margin-left: 50px;
+  margin-bottom: 40px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box p, .box-area p, .big-b-area {
+  text-align: center;
+  color: white;
+}
+
+.box .titulo, .box-area .titulo, .big-b-area {
+  font-size: 30px;
+  font-weight: 900;
+  text-decoration-line: underline;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.icone-1 p, .icone-2 p, .icone-area {
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 8px;
+  align-self: center;
+}
+
+.box .pacote {
+  /* display: grid;
+  grid-template-columns: 200px 200px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer {
+  background: #3A3A7B;
+}
+
+.social-m {
+  transform: translateX(55px);
+}
+
+/* ------------------------------------------------  */
+/* Página area restrita */
+
+.orangestrap img {
+  padding-top: 90px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.bluestrap-box-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bluestrap-area {
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  width: 950px;
+  height: 60px;
+  background: #3A3A7B;
+  color: white;
+  transform: translateY(-30px);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bluestrap-area p {
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 15px;
+}
+
+.container-area {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+
+.box-area {
+  flex: 1 1 200px;
+  margin: 20px 10px;
+  width: 430px;
+  height: 336px;
+  margin: 0px;
+  background: #0070C0;
+  border-radius: 15px;
+  margin-left: 50px;
+  margin-bottom: 40px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.box-area .pacote .icone-area a {
+  margin-left: 100px;
+
+}
+
+.titulo-big-area {
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+
+.big-blue-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.big-b-area {
+  width: 955px;
+  height: 500px;
+  margin-left: 50px;
+  background: #0070C0;
+  border-radius: 15px;
+  margin-bottom: 140px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* -------------------------------------------------------------------------  */
+
+/* Página Sobre  */
+
+.container-sobre {
+  max-width: 1220px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-sobre {
+  margin: 20px 10px;
+  width: 1213px;
+  height: 295px;
+  margin: 0px;
+  background: #0070C0;
+  border-radius: 15px;
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.imagem-sobre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.texto-sobre {
+  width: 566px;
+  color: white;
+  font-weight: 700;
+  font-size: 19px;
+  text-align: justify;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.titulo-sobre {
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.box-video {
+  display: flex;
+  justify-content: center;
+  margin: 70px 0;
+}
+
+.bluestrap-box-sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+/* ------------------- mapa----------------------  */
+.box-mapa {
+  display: flex;
+  justify-content: center;
+}
+
+/*------------Trabalhe Conosco/CONTATO.HTML-------------*/
+
+.iframe1 {
+  margin-left: 50px;
+  border: none;
+  height: 230vh;
+  align-items: center;
+  background-color: white;
+}
+
+.box-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
